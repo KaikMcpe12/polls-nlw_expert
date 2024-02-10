@@ -40,7 +40,7 @@ export async function voteOnPoll(app: FastifyInstance){
         }
 
         if(!sessionId){
-            const sessionId = randomUUID()
+            sessionId = randomUUID()
 
             res.setCookie('sessionId', sessionId, {
                 path: '/',
