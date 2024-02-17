@@ -28,6 +28,7 @@ npm install -y
 ```
 ### Docker:
 - [Instale o Docker](https://www.docker.com/get-started)
+- Use: `docker up -d` para subir os containers do Postgres e do Redis
 - Use: `docker ps` na raiz do projeto para verificar se os serviços estão em execução.
 
 ### Rotas
